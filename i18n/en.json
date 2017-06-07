@@ -1,0 +1,12 @@
+{
+  "title": "ANDROID SCHOOL",
+  "subtitle": "\u001b[23mSelect an exercise and hit \u001b[3mEnter\u001b[23m to begin",
+  "menu": {
+    "credits": "CREDITS"
+  },
+  "exercise": {
+    "Ejercicio 3": "Exercise 3",
+    "Ejercicio 4": "Exercise 4",
+    "Ejercicio 5": "Exercise 5"
+  }
+}
