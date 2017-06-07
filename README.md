@@ -1,4 +1,6 @@
-# Learn Android with **Android School** For Much Win!
+# Learn the android basics with **Android School Basics** For Much Win!
+
+**Beta version**
 
 **An intro to Android via a set of self-guided exercise.**
 
@@ -11,22 +13,23 @@
   1. Install [Node.js](http://nodejs.org/)
   2. Install [Git](https://git-scm.com/)
   3. Install [Android SDK](https://developer.android.com/studio/index.html?hl=es-419) with Android Studio
-  2. Run `npm install -g androidschool`
+  2. Run `npm install -g androidschoolbasics`
     1. In case it fails, easiest way is to prefix with `sudo`:
 
-        `sudo npm install -g androidschool` or to:
+        `sudo npm install -g androidschoolbasics
+    ` or to:
     2. [fix your npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions).
-  3. Run `androidschool`
+  3. Run `androidbasics`
     1. (Ubuntu users) In case step 3 fails, run `sudo apt-get install nodejs-legacy`
   4. **profit!**
 
-<b><code>androidschool</code></b> will run through a series of Android workshops. Starting at a basic *"HELLO WORLD"* and moving on to more advanced exercises about dealing with some android development elements.
+<b><code>androidbasic</code></b> will run through a series of Android workshops. Starting at a basic *"HELLO WORLD"* and moving on to more basics exercises.
 
-Once you have finished <b><code>androidschool</code></b>, you can keep learning new stuff by yourself.
+Once you have finished <b><code>androidbasic</code></b>, you can keep learning new stuff by yourself.
 
 ### Contributors
 
-<b><code>androidschool</code></b> is proudly brought to you by the following hackers:
+<b><code>androidbasic</code></b> is proudly brought to you by the following hackers:
 
 <table><tbody>
 <tr><th align="left">Kevin Gamboa</th><td><a href="https://github.com/kevingamboa17">GitHub/kevingamboa17</a></td><td><a href="http://twitter.com/kevingamboa17">Twitter/@kevingamboa17</a></td></tr>
