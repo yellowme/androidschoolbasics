@@ -1,12 +1,12 @@
 {
-  "name": "wortest",
-  "version": "1.0.8",
+  "name": "androidschool",
+  "version": "1.0.0",
   "description": "",
   "main": "./androidschool.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kevin Gamboa",
   "license": "ISC",
   "dependencies": {
     "simple-git": "^1.73.0",
