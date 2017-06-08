@@ -9,14 +9,15 @@
   "author": "Kevin Gamboa",
   "license": "ISC",
   "dependencies": {
+    "ora": "^1.2.0",
     "simple-git": "^1.73.0",
     "workshopper": "git+https://github.com/kevingamboa17/workshopper.git",
     "workshopper-exercise": "^3.0.1",
     "xml2js": "^0.4.17"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/yellowme/androidschoolbasics.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellowme/androidschoolbasics.git"
   },
   "bin": {
     "androidbasics": "./bin/androidschool"
