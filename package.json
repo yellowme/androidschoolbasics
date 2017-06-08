@@ -1,6 +1,6 @@
 {
   "name": "androidschoolbasics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./androidschool.js",
   "scripts": {
@@ -14,9 +14,9 @@
     "workshopper-exercise": "^3.0.1",
     "xml2js": "^0.4.17"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/yellowme/androidschoolbasics.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellowme/androidschoolbasics.git"
   },
   "bin": {
     "androidbasics": "./bin/androidschool"
