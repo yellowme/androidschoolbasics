@@ -29,7 +29,8 @@ This lesson shows you how to open the Android project with Android Studio, how t
 2- Create your first activity
     * First, be sure the Project window is open (select View > Tool Windows > Project)
     * Right Click on "app" folder and select new > activity > empty activity.
-    * In the Customize the Activity screen, keep the default values and click Finish.
+    * In the Customize the Activity screen, select launcher activity, the rest
+      keep the default values and click Finish.
 
     * You have created your first activity in android!!!
 

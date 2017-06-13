@@ -27,7 +27,7 @@ En esta lección the mostraremos cómo abrir un proyecto android con android stu
 2- Crea tu primera activity
     * Primero, asegurate de que la ventana Proyecto está abierta  (selecciona View > Tool Windows > Project).
     * Haz click derecho en la carpeta "app" y selecciona new > activity > empty activity.
-    * En la pantalla de personalizacion de la activity, manten los valores por default y haz click en Finish.
+    * En la pantalla de personalizacion de la activity, selecciona 'launcher            activity', del resto manten los valores por default y haz click en Finish.
 
     * Has creado tu primera activity en android!!!
 
