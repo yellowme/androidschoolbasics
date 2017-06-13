@@ -2,6 +2,8 @@
 
 **Beta version**
 
+**Only 3 exercises for now**
+
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
@@ -30,16 +32,31 @@
   6. Run `androidbasics` inside the android project directory
   7. **Learn!**
 
-<b><code>androidbasic</code></b> will run through a series of Android workshops. Starting at a basic *"HELLO WORLD"* and moving on to more basics exercises.
+<b><code>androidbasics</code></b> will run through a series of Android workshops. Starting at a basic *"HELLO WORLD"* and moving on to more basics exercises.
 
-Once you have finished <b><code>androidbasic</code></b>, you can keep learning new stuff by yourself.
+Once you have finished <b><code>androidbasics</code></b>, you can keep learning new stuff by yourself.
 
 ### Contributors
 
-<b><code>androidbasic</code></b> is proudly brought to you by the following hackers:
+<b><code>androidbasics</code></b> is proudly brought to you by the following hackers:
 
 <table><tbody>
 <tr><th align="left">Kevin Gamboa</th><td><a href="https://github.com/kevingamboa17">GitHub/kevingamboa17</a></td><td><a href="http://twitter.com/kevingamboa17">Twitter/@kevingamboa17</a></td></tr>
 
 </tbody></table>
 
+
+### To-do
+
+some of the things we need to do
+
+<table><tbody>
+<tr>
+<th align="left">Change Language</th>
+<td><a>When you change the language, it crash, you just need to restart it to work properly</a></td>
+
+<tr>
+<th align="left">Logs</th>
+<td><a>Erase some logs and controll them</a></td>
+
+</tbody></table>

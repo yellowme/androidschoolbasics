@@ -12,7 +12,7 @@ function analize (path) {
   return new Promise(function (resolve, reject) {
     fs.readFile(path, function (err, data) {
       if (err) {
-        resolve(['Elements missing'])
+        resolve(['Elements missing, check your id'])
         return
       }
       parseString(data, function (err, result) {
