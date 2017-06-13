@@ -11,7 +11,7 @@ function execute () {
     appDir: __dirname,
     menuItems: [],
     exerciseDir: path.join(__dirname, 'exercises'),
-    languages: ['en', 'es', 'fr'],
+    languages: ['en', 'es'],
     menu: {width: 73,
       x: 2,
       y: 2,

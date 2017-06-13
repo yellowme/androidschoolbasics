@@ -1,11 +1,12 @@
 {
-  "title": "ESCUELA DE ANDROID",
+  "title": "ANDROID SCHOOL",
   "subtitle": "\u001b[23mSelecciona un ejercicio y presiona \u001b[3mEnter\u001b[23m para continuar",
   "menu": {
     "credits": "CREDITOS"
   },
   "exercise": {
     "Introduction": "Introduccion",
-    "Yellow World": "Yellow World"
+    "Yellow World": "Yellow World",
+    "Button and Toast": "Botón y Toast"
   }
 }
