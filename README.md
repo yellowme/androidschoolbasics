@@ -2,6 +2,8 @@
 
 **Beta version**
 
+**Only 3 exercises for now**
+
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
@@ -43,3 +45,18 @@ Once you have finished <b><code>androidbasics</code></b>, you can keep learning 
 
 </tbody></table>
 
+
+### To-do
+
+some of the things we need to do
+
+<table><tbody>
+<tr>
+<th align="left">Change Language</th>
+<td><a>When you change the language, it crash, you just need to restart it to work properly</a></td>
+
+<tr>
+<th align="left">Logs</th>
+<td><a>Erase some logs and controll them</a></td>
+
+</tbody></table>
