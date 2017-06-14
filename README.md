@@ -13,10 +13,9 @@
 [Gettin started with Android?](https://developer.android.com/training/index.html)
 
 [![NPM](https://nodei.co/npm/androidschoolbasics.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/androidschoolbasics/)
-
 [![NPM](https://nodei.co/npm-dl/androidschoolbasics.png?months=3)](https://nodei.co/npm/androidschoolbasics/)
 
-![Screenshot of program]()
+![Screenshot of program](./Screenshot.png)
 
   1. Install [Node.js](http://nodejs.org/)
   2. Install [Git](https://git-scm.com/)
@@ -28,7 +27,6 @@
      [fix your npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions).
     * (Ubuntu users) run `sudo apt-get install nodejs-legacy`
   5. Clone the [repository](https://github.com/yellowme/androidschool) of the android project you're goin to use in android studio
-  5. Run `androidbasics config`  inside the android project directory to configure it for the first time
   6. Run `androidbasics` inside the android project directory
   7. **Learn!**
 
