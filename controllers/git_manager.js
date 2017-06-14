@@ -4,8 +4,6 @@
 var path = require('path')
 var sep = path.sep
 var testDir = process.cwd() + sep + 'app' + sep + 'src' + sep + 'test' + sep + 'java' + sep + 'mx' + sep + 'yellowme' + sep + 'androidschool'
-// var git = require('simple-git')(process.cwd+"");
-// var testDir = __dirname+sep+".."+sep+"androidschool" +sep+"app"+sep+"src"+sep+"test"+sep+"java"+sep+"mx"+sep+"yellowme"+sep+"androidschool";
 var git
 
 try {
@@ -15,51 +13,36 @@ try {
   process.exit(0)
 }
 
-function buildTestEnviroment (testFile) {
+function buildTestEnviroment (testFile, branchName) {
   return new Promise(function (resolve, reject) {
-    git.checkout('base', function (err) {
-      git.add(['.'], function () {
-        if (err) { reject(new Error('error1')); return };
-        git.commit('exercise', function () {
-          if (err) { reject(new Error('error2')); return };
-          git.checkout('tests', function () {
-            if (err) { reject(new Error('error3')); return };
-            git.checkoutLocalBranch('provisional', function () {
-              if (err) { reject(new Error('error4')); return };
-              git.checkout(['head~', testDir + sep + testFile], function () {
-                if (err) { reject(new Error('error5')); return };
-                git.add(['.'], function () {
-                  git.commit('test', function () {
-                    if (err) { reject(new Error('error6')); return };
-                    git.mergeFromTo('base', 'provisional', function () {
-                      if (err) { reject(new Error('error7')); return };
-                      resolve('done')
-                    })
-                  })
-                })
-              })
-            })
-          })
-        })
-      })
+    git.fetch(['origin'])
+    .checkout('master')
+    .add(['.'])
+    .commit('exercise', ['--amend'])
+    .checkout('origin/' + branchName)
+    .checkoutLocalBranch('provisional')
+    .mergeFromTo('master', 'provisional', ['--no-ff'])
+    .checkout(['head~', testDir + sep + testFile])
+    .add(['.'])
+    .commit('test', function (error) {
+      if (error) {
+        console.log(error)
+        reject(error)
+      }
+      resolve('Done')
     })
   })
 }
 
 function destroyTestEnviroment () {
   return new Promise(function (resolve, reject) {
-    git.checkout('provisional', function () {
-      git.commit('hey', function () {
-        git.checkout('base', function () {
-          git.branch(['-D', 'provisional'], function (err) {
-            if (err) {
-              reject(new Error('Error deleting branch'))
-              return
-            }
-            resolve('eliminated')
-          })
-        })
-      })
+    git.checkout('master')
+    .branch(['-D', 'provisional'], function (error) {
+      if (error) {
+        console.log(error)
+        reject(error)
+      }
+      resolve('Eliminated')
     })
   })
 }
