@@ -16,6 +16,9 @@ This lesson shows you how to add and modify a textview in the Android project an
 
 1- In Android Studio's Project window, open app > res > layout > activity_main.xml.
 
+    Note: If you have a message to add some files to git, don't do it, click in cancel, because we're going to use git 
+    and it may cause some issues. And if the gradle wants to sync, it's ok, it's to configure some files, just click in sync. 
+
 2- To make more room for the Layout Editor, hide the Project window by selecting View > Tool Windows > Project (or click Project  
 on the left side of Android Studio).
 

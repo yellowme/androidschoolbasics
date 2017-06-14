@@ -20,7 +20,7 @@
 
   1. Install [Node.js](http://nodejs.org/)
   2. Install [Git](https://git-scm.com/)
-  3. Install [Android SDK](https://developer.android.com/studio/index.html?hl=es-419) with Android Studio
+  3. Install [Android SDK](https://developer.android.com/studio/index.html?hl=es-419) with Android Studio 2.3 or higher version
   4. Run `npm install androidschoolbasics -g`
   * In case it fails, easiest way is to prefix with `sudo`:
         `sudo npm install -g androidschoolbasics` 
