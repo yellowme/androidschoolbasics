@@ -22,9 +22,12 @@ This lesson shows you how to open the Android project with Android Studio, how t
     Application Name: "androidschool"
     Company Domain: "mx.yellowme"
 
-
+    In this project we're going to work with the sdk 23, which is for android 6.0 onwards.
     If you're curious about how the SDK versions affect your app, read Supporting Different Platform Versions (https://goo.gl/dYHfzP)
 
+    Note: If you have a message to add some files to git, don't do it, click cancel, because we are going to use git
+    And may cause some problems. In case the gradle wants to synchronize, it is okay, it is to configure some files,
+    Click Sync.
 
 2- Create your first activity
     * First, be sure the Project window is open (select View > Tool Windows > Project)

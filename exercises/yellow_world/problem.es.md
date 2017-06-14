@@ -10,11 +10,15 @@ Esta lección te muestra cómo agregar y modificar un textView(vista de texto) e
 --------------------
 
     Nota: Esta lección espera que esté utilizando Android Studio 2.3 o superior y que haya seguido la lección anterior
-          Para abrir el proyecto Android.
+    Para abrir el proyecto Android.
 
 * Para empezar, configure su espacio de trabajo de la siguiente manera:
 
 1- En la ventana Project de Android Studio, abre app> res> layout> activity_main.xml.
+
+    Nota: Si tiene un mensaje para agregar algunos archivos a git, no lo haga, haga clic en cancelar, porque vamos a usar git
+    y puede causar algunos problemas. En caso de que el gradle quiera sincronizar, está bien, es para configurar algunos archivos, 
+    haga clic en sincronizar.
 
 2- Para hacer más espacio para el Editor de diseño, oculta la ventana Project seleccionando View> Tool Windows> Proyect 
 (o haz click en Project En el lado izquierdo de Android Studio).
