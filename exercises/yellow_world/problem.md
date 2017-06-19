@@ -26,7 +26,7 @@ on the left side of Android Studio).
 
 4- In the 'Palette' tab look for the Widgets and drag a 'Plain TextView' in the screen, wherever you want.
 
-5- In the left side, you can see the 'properties' tab. There you can edit all the properties of your element, for example, the 
+5- In the right side, you can see the 'properties' tab. There you can edit all the properties of your element, for example, the 
 background color, the id, the text, and more.
 
 6- Change your textView 'id' to 'textViewUser'

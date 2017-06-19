@@ -27,7 +27,7 @@ Esta lección te muestra cómo agregar y modificar un textView(vista de texto) e
 
 4- En la pestaña 'Palette', busca los Widgets y arrastra un "Plain TextView" en la pantalla, en la parte que más te guste.
 
-5- En el lado izquierdo, puedes ver la pestaña 'properties'. Allí puedes editar todas las propiedades de tu elemento, por ejemplo, el
+5- En el lado derecho, puedes ver la pestaña 'properties'. Allí puedes editar todas las propiedades de tu elemento, por ejemplo, el
 El color de fondo, el id, el texto, y más.
 
 6- Cambia el textView 'id' a 'textViewUser'

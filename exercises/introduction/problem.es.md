@@ -25,9 +25,10 @@ En esta lección the mostraremos cómo abrir un proyecto android con android stu
     En este proyecto trabajaremos con el sdk 23, que es para android 6.0 en adelante.
     Si eres curioso acerca de cómo las diferentes versiones de SDK afectan a tu app, lee "Supporting Different Platform Versions" (https://goo.gl/dYHfzP).
 
-    Nota: Si tiene un mensaje para agregar algunos archivos a git, no lo haga, haga clic en cancelar, porque vamos a usar git
-    y puede causar algunos problemas. En caso de que el gradle quiera sincronizar, está bien, es para configurar algunos archivos, 
-    haga clic en sincronizar.
+    Nota: * Si tiene un mensaje para agregar algunos archivos a git, no lo haga, haga clic en cancelar, porque vamos a usar git
+            y puede causar algunos problemas. En caso de que el gradle quiera sincronizar, está bien, es para configurar algunos archivos, 
+            haga clic en sincronizar.
+          * Si tiene un error 'Failed to find Build tools revision', solo haz click en 'install build tools and sync project'
 
 2- Crea tu primera activity
     * Primero, asegurate de que la ventana Proyecto está abierta  (selecciona View > Tool Windows > Project).

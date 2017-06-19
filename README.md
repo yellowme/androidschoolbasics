@@ -2,7 +2,7 @@
 
 **Beta version**
 
-**Only 3 exercises for now**
+**5 Exercises for now**
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/androidschoolbasics/Lobby)

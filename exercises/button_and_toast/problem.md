@@ -44,6 +44,8 @@ and once you have the instance of the toast, call the method 'show()'
 
 If you have everything correct in your method, you can run your app, and it should work fine.
 
+    Note: Is your duty to look at the internet how to accommodate the elements and avoid overlapping
+
 ----------------------------------------------------------------------
 To know more about what we did in here, you can check this links:
     [EditText](https://goo.gl/3JSnAR)

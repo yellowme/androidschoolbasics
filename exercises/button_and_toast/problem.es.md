@@ -43,6 +43,8 @@ Y una vez que tenga la instancia del toast, llame al método 'show ()' del toast
 
 Si tienes todo correcto, puedes ejecutar tu aplicación, y revisar si funciona como debe.
 
+    Nota: Es tu deber, buscar en internet cómo acomodar los elementos en la pantalla y evitar que se sobrepongan.
+
 --------------------------------------------------
 Para saber más sobre lo que se hizo, puedes consultar los siguientes enlaces:
 
