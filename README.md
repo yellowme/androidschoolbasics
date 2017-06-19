@@ -5,6 +5,7 @@
 **Only 3 exercises for now**
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/androidschoolbasics/Lobby)
 
 
 **An intro to Android via a set of self-guided exercise.**

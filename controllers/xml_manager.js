@@ -20,7 +20,11 @@ function analize (path) {
           reject(new Error('data error'))
         }
         if (Number(result.testsuite.$.failures) > 0) {
-          ministring = result.testsuite.testcase[0].failure[0].$.message.substring(38)
+          result.testsuite.testcase.forEach(function (element) {
+            if (element.failure !== undefined) {
+              ministring = element.failure[0].$.message
+            }
+          })
 
           if (Number(ministring.indexOf('expected')) < 0) { message = ministring } else { messageManagment() }
         } else { message = 'All correct'; ministring = 'All correct' }
