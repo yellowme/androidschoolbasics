@@ -1,0 +1,12 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":""
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":""
+    }
+}

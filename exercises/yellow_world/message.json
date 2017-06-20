@@ -1,0 +1,18 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"TextView with id: textViewUser, text: Yellow World!",
+        "equals":"textViewUser doesn't have the text 'Yellow World!'",
+        "exp": "expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"TextView con id: textViewUser, texto: Yellow World!",
+        "equals":"textViewUser no tiene el texto 'Yellow World!'",
+        "exp": "esperado: ",
+        "was": "pero fue: "
+    }
+}

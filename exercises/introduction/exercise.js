@@ -1,6 +1,7 @@
 const Exercise = require('workshopper-exercise')
 const exe = new Exercise()
 var controller = require('../../controllers/controller')
+var jsonMessage = require('./message.json')
 // var messageFile;
 
 exports.generateExercise = function (language) {
@@ -20,8 +21,17 @@ function verifyExercise (exe) {
 }
 
 function getMessage (message, language) {
-  // get message from a file ./messages/message+language+.md
-  return message
+  var finalMessage
+  if (!jsonMessage.hasOwnProperty(language)) {
+    language = 'en'
+  }
+
+  if (message === 'All correct') {
+    finalMessage = jsonMessage[language].pass
+  } else {
+    finalMessage = jsonMessage[language].fail
+  }
+  return finalMessage
 }
 
 exports.ExerciseFunction = verifyExercise

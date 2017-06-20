@@ -1,0 +1,24 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"Activity: MainActivity with {  \nEditText with id: 'editTextUser'  \nButton with   id: 'buttonUser'  \n}  \n\nActivity: DisplayMessageActivity with {  \nTextView with id: 'textViewUser2'  \n}  \n\nThe EXTRA_MESSAGE of the intent to create the second activity, should have a key 'MESSAGE'",
+        "equals1":"DisplayMessageActivity isn't starting",
+        "equals2":"The intent extra with key 'MESSAGE' isn't the text of the editText",
+        "equals3":"The textview of DisplayMessageActivity has not the expected string",
+        "notnull":"Extra has nothing with key value 'MESSAGE'",
+        "exp": "Expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"Clase: MainActivity con {  \nEditText con id: 'editTextUser'  \nButton con   id: 'buttonUser' \n}  \n\nClase: DisplayMessageActivity con {  \nTextView con id: 'textViewUser2'  \n}  \n\nEl EXTRA_MESSAGE del intent para crear la segunda actividad, tendrá una llave 'MESSAGE'",
+        "equals1":"No se está iniciando DisplayMessageActivity",
+        "equals2":"El intent extra con llave 'MESSAGE' no es el texto del editText",
+        "equals3":"El textView del DisplayMessageActivity no tiene el string esperado",
+        "notnull":"El intent extra no tiene nada con llave 'MESSAGE'",
+        "exp": "Esperado: ",
+        "was": "pero fue: "
+    }
+}

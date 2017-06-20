@@ -1,0 +1,20 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"Activity: MainActivity with { \nEditText with id: 'editTextUser' \nTextView with id: 'textViewUser' \n} \n\nString resources { \nName: yellow_world    value: 'Yellow World!' \nName: hint_text_info  value: whatever you want  ex. 'banana'  \n}",
+        "equals1":"textView's string is not equal to the source 'yellow_world'",
+        "equals2":"editText's hint is not equal to the source 'hint_text_info' ",
+        "exp": "Expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"Clase: MainActivity con {  \nEditText con id: 'editTextUser'  \nTextView con id: 'textViewUser'  \n}  \n\nRecursos String {  \nNombre: yellow_world    valor: 'Yellow World!'  \nNombre: hint_text_info  valor: Lo que quieras ej. 'banana'  \n}",
+        "equals1":"El string del textView no es igual al de la fuente 'yellow_world'",
+        "equals2":"El hint del editText no es igual al de la fuente 'hint_text_info'",
+        "exp": "Esperado: ",
+        "was": "pero fue: "
+    }
+}

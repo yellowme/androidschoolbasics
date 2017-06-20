@@ -1,0 +1,18 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"editText with id : 'editTextUser' \nbutton with   id : 'buttonUser'",
+        "equals":"The toast is not showing the text of the editTextUser",
+        "exp": "Expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"editText con id : 'editTextUser' \nbutton con   id : 'buttonUser'",
+        "equals":"El toast no está mostrando el texto del editTextUser",
+        "exp": "Esperado: ",
+        "was": "pero fue: "
+    }
+}
