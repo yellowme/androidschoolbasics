@@ -1,0 +1,22 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"Activity: MainActivity with {  \nButton with   id: 'button'  \n}  \n\nActivity: Menu with {  \nListView with   id: 'listViewCountries'  \n}  \n\nString resources {  \nType: 'String-array'  Name: 'countries'   value: 20 different countries  \n}",
+        "equals1":"The listView doesn't have the elements",
+        "equals2":"Isn't the right text in toast",
+        "equals3":"The arrayString doesn't have 20 elements D: ",
+        "exp": "Expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"Activity: MainActivity con {  \nButton con   id: 'button'  \n}  \n\nActivity: Menu con {  \nListView with   id: 'listViewCountries'  \n}  \n\nRecursos String {  \nTipo: 'String-array'  Nombre: 'countries'   valor: 20 different countries  \n}",
+        "equals1":"El listViewUser no tiene los elementos",
+        "equals2":"El texto del toast, no es el correcto",
+        "equals3":"El arrayString no tiene los 20 elementos D: ",
+        "exp": "Esperado: ",
+        "was": "pero fue: "
+    }
+}

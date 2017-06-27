@@ -50,9 +50,6 @@ Once you have finished <b><code>androidbasics</code></b>, you can keep learning 
 some of the things we need to do
 
 <table><tbody>
-<tr>
-<th align="left">Change Language</th>
-<td><a>When you change the language, it crash, you just need to restart it to work properly</a></td>
 
 <tr>
 <th align="left">Logs</th>

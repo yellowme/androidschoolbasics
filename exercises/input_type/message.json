@@ -1,0 +1,24 @@
+{
+    "en":{
+        "pass":"Great! everything is okay :D",
+        "fail":"mmmmm something is missing, check your proyect is correct and also check your elements id \nRemember the initial conditions:",
+        "conditions":"Activity: MainActivity with {  \nEditText with id: 'editTextUser1'  \nEditText with id: 'editTextUser2'  \nTextView with id: 'textViewResult'  \nButton   with id: 'buttonUser'  \n}",
+        "equals1":"The editTextUser1 isn't type number",
+        "equals2":"The editTextUser2 isn't type number",
+        "equals3":"The result of the sum isn't correct D: ",
+        "formatException":"The textViewResult doesn't content a number D: ",
+        "exp": "Expected: ",
+        "was": "but was: "
+    },
+    "es":{
+        "pass":"Excelente! Todo está correcto :D",
+        "fail":"mmmmm algo falta, revisa el id de los elementos y que tu programa funcione \nRecuerda las condiciones iniciales: \n",
+        "conditions":"Activity: MainActivity con {  \nEditText con id: 'editTextUser1'  \nEditText con id: 'editTextUser2'  \nTextView con id: 'textViewResult'  \nButton   con id: 'buttonUser'  \n}",
+        "equals1":"El editTextUser1 no es de tipo numero",
+        "equals2":"El editTextUser2 no es de tipo numero",
+        "equals3":"El resultado de la suma no es el correcto D: ",
+        "formatException": "El textViewResult no contiene un número D: ",
+        "exp": "Esperado: ",
+        "was": "pero fue: "
+    }
+}
