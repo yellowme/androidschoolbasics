@@ -55,7 +55,7 @@ Change the root element for TextView. and let the other options with the default
 This file actually creates a TextView for the items in the list.
 
     Note: You can change your textView properties to look like you want.
-    This textView will repeat for each element of the textView.
+    This textView will repeat for each element of the list.
 
 
 5- The next, is to set an arrayAdapter to the listView to see the string array.
