@@ -1,8 +1,7 @@
 # Learn the android basics with **Android School Basics** For Much Win!
 
-**Beta version**
 
-**5 Exercises for now**
+**7 Exercises for now**
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/androidschoolbasics/Lobby)
@@ -45,14 +44,7 @@ Once you have finished <b><code>androidbasics</code></b>, you can keep learning 
 </tbody></table>
 
 
-### To-do
+### We want to hear suggestions
 
-some of the things we need to do
-
-<table><tbody>
-
-<tr>
-<th align="left">Logs</th>
-<td><a>Erase some logs and controll them</a></td>
-
-</tbody></table>
+Talk to us, we are harmless
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/androidschoolbasics/Lobby)
