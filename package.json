@@ -1,5 +1,5 @@
 {
-  "name": "androidschoolbasics",
+  "name": "@yellowme/androidschoolbasics",
   "version": "1.4.2",
   "description": "",
   "main": "./androidschool.js",
